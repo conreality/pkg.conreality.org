@@ -1,0 +1,14 @@
+Codename: bionic
+Suite: stable
+Version: 3.0
+Origin: Conreality.org
+Label: Conreality
+Description: Ubuntu APT repository for Conreality
+Architectures: source i386 amd64
+Components: main
+#SignWith: yes
+#DebOverride:
+#DscOverride:
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Contents: . .gz .bz2
