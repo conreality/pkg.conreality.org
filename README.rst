@@ -1,6 +1,6 @@
-*******************
-Conreality Packages
-*******************
+**************************
+Conreality Package Archive
+**************************
 
 .. image:: https://img.shields.io/badge/license-Public%20Domain-blue.svg
    :alt: Project license
@@ -25,9 +25,9 @@ on `Alpine Edge <https://wiki.alpinelinux.org/wiki/Edge>`__.
 
 ::
 
-   $ echo 'http://pkg.conreality.org/alpine/edge' >> /etc/apk/repositories
+   $ echo 'https://pkg.conreality.org/alpine/edge' >> /etc/apk/repositories
 
-   $ wget -P /etc/apk/keys/ http://pkg.conreality.org/alpine/keys/arto@conreality.org-5aa268e7.rsa.pub
+   $ wget -P /etc/apk/keys/ https://pkg.conreality.org/alpine/keys/arto@conreality.org-5aa268e7.rsa.pub
 
    $ apk update
 
@@ -36,7 +36,7 @@ on `Alpine Edge <https://wiki.alpinelinux.org/wiki/Edge>`__.
 `Arch Linux <https://en.wikipedia.org/wiki/Arch_Linux>`__
 ---------------------------------------------------------
 
-We package for x86-64 (``x86_64``) on `Arch
+We plan to package for x86-64 (``x86_64``) on `Arch
 <https://wiki.archlinux.org/>`__.
 
 *(To be written.)*
@@ -44,7 +44,7 @@ We package for x86-64 (``x86_64``) on `Arch
 `Debian <https://en.wikipedia.org/wiki/Debian>`__
 -------------------------------------------------
 
-We package for x86-64 (``amd64``) on `Debian 9 ("Stretch")
+We plan to package for x86-64 (``amd64``) on `Debian 9 ("Stretch")
 <https://wiki.debian.org/DebianStretch>`__.
 
 *(To be written.)*
@@ -52,7 +52,7 @@ We package for x86-64 (``amd64``) on `Debian 9 ("Stretch")
 `Ubuntu <https://en.wikipedia.org/wiki/Ubuntu_(operating_system)>`__
 --------------------------------------------------------------------
 
-We package for x86-64 (``amd64``) on `Ubuntu 18.04 LTS ("Bionic Beaver")
+We plan to package for x86-64 (``amd64``) on `Ubuntu 18.04 LTS ("Bionic Beaver")
 <https://wiki.ubuntu.com/BionicBeaver>`__.
 
 *(To be written.)*
@@ -64,6 +64,6 @@ macOS
 -----------------------------------------------------------------------------------
 
 We `bottle <https://docs.brew.sh/Bottles>`__ for x86-64 (``x86_64``) on
-`macOS 10.13 ("High Sierra") <https://en.wikipedia.org/wiki/MacOS_High_Sierra>`__.
+`macOS 10.14 ("Mojave") <https://en.wikipedia.org/wiki/MacOS_Mojave>`__.
 
 *(To be written.)*
