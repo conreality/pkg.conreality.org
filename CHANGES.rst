@@ -8,6 +8,14 @@ The format is based on `Keep a Changelog
 <https://keepachangelog.com/en/1.0.0/>`__ and this project adheres to
 `Semantic Versioning <https://semver.org/spec/v2.0.0.html>`__.
 
+2019-02-06
+==========
+
+Changed
+-------
+
+- Moved hosting to GitHub Pages and enforced HTTPS-only access.
+
 2018-03-10
 ==========
 
